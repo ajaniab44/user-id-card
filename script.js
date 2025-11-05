@@ -24,14 +24,14 @@ fetch(url, fetchData)
 
         return `
             <div class="eachuser">
-                <img class="image" src="${value.image}" alt="">
-                <p><span> ${value.firstName}<span/>
+                <img src="${value.image}" alt="">
+                <p>Name:<span> ${value.firstName}<span/>
                 <span> ${value.lastName}<span/>
                 </p>
-                <p>${value.gender}</p>
-                <p>${value.id}</p>
-                <p>${value.bloodGroup}</p>
-                <p>${value.phone}</p>
+                <p><span>Gender:<span/> <span>${value.gender}<span/></p>
+                <p>Id no:${value.id}</p>
+                <p>B.group:${value.bloodGroup}</p>
+             
              
             </div>
         `;
